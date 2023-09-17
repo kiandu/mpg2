@@ -1,0 +1,731 @@
+
+#wb_adminMenu
+{
+   border: 0px solid #FFD700;
+   border-radius: 0px;
+   background-color: transparent;
+   margin: 0;
+   text-align: center;
+   z-index: 1111 !important;
+}
+#wb_adminMenu ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#wb_adminMenu li
+{
+   float: left;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   width: 25%;
+}
+#wb_adminMenu a
+{
+   display: block;
+   float: left;
+   color: #333333;
+   border: 1px solid #000000;
+   border-radius: 0px;
+   background-color:#f5d1d7;
+   background-image: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   width: calc(100% - 2px);
+   box-sizing: border-box;
+   height: 50px;
+   padding: 0 5px 0px 5px;
+   vertical-align: middle;
+   line-height: 48px;
+   text-align: center;
+}
+#wb_adminMenu li:hover a, #wb_adminMenu a:hover
+{
+   color: #ffffff;
+   border: 1px solid #2E6DA4;
+   background-color: #337AB7;
+   background-image: none;
+}
+#wb_adminMenu li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_adminMenu li.lastmain
+{
+   padding-right: 30px;
+}
+#wb_adminMenu br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#adminMenu li i
+{
+   font-size: 13px;
+   margin-right: 3px;
+   width: 15px;
+}
+#wb_adminMenu
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 0;
+}
+@media only screen and (max-width: 480px) and (orientation: portrait)
+{
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid1
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   height: auto;
+   padding: 20px 15px 20px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_adminMenu
+{
+   width: 100%;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   text-align: center;
+}
+#wb_adminMenu li
+{
+   width: 25%;
+}
+#wb_adminMenu a
+{
+   color: #333333;
+   border: 1px solid #CCCCCC;
+   border-radius: 0px;
+   background-color: #ec653c;
+   background-image: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   font-style: normal;
+   text-decoration: none;
+   width: calc(100% - 2px);
+   box-sizing: border-box;
+   height: 50px;
+   padding: 0 5px 0px 5px;
+   line-height: 48px;
+   text-align: center;
+}
+#wb_adminMenu li:hover a, #wb_adminMenu a:hover
+{
+   color: #FFFFFF;
+   border: 1px solid #2E6DA4;
+   background-color: #337AB7;
+   background-image: none;
+}
+#wb_adminMenu li
+{
+   padding: 30px 0px 30px 0px;
+}
+}
+
+
+#options{
+   margin-top:10%;
+}
+#Button
+{
+   box-sizing: border-box;
+   line-height: 45px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #D3D3D3;
+   background-image: none;
+   color: #000000;
+   font-family: "MS Serif";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+   padding: 1px 6px 1px 6px;
+   text-align: left;
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+#Button:focus
+{
+   outline: 0;
+}
+#wb_Form1
+{
+   background-color: #f1e7bb;
+   border: 0px solid #CCCCCC;
+   border-radius: 1px;
+   left: 100px;
+}
+#Editbox1
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 16px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label1
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Label1:focus
+{
+   outline: 0;
+}
+#Editbox2
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 16px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox2:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label2
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Label2:focus
+{
+   outline: 0;
+}
+#Editbox3
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 16px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox3:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label3
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Label3:focus
+{
+   outline: 0;
+}
+#Button1
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   cursor: pointer;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 21px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+#Button1:focus
+{
+   outline: 0;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#Editbox4
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 16px;
+   margin: 0;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox4:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Label4
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Label4:focus
+{
+   outline: 0;
+}
+#Button1
+{
+   position: absolute;
+   left: 176px;
+   top: 485px;
+   width: 254px;
+   height: 40px;
+   z-index: 6;
+}
+#Editbox1
+{
+   position: absolute;
+   left: 136px;
+   top: 56px;
+   width: 111px;
+   height: 16px;
+   z-index: 0;
+}
+#Editbox2
+{
+   position: absolute;
+   left: 136px;
+   top: 131px;
+   width: 111px;
+   height: 16px;
+   z-index: 2;
+}
+#Editbox3
+{
+   position: absolute;
+   left: 136px;
+   top: 202px;
+   width: 111px;
+   height: 16px;
+   z-index: 4;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 176px;
+   top: 300px;
+   width: 395px;
+   height: 24px;
+   z-index: 7;
+}
+#Label4
+{
+   position: absolute;
+   left: 35px;
+   top: 258px;
+   width: 81px;
+   height: 16px;
+   line-height: 16px;
+   z-index: 9;
+}
+#Label3
+{
+   position: absolute;
+   left: 35px;
+   top: 203px;
+   width: 81px;
+   height: 16px;
+   line-height: 16px;
+   z-index: 5;
+}
+#Label2
+{
+   position: absolute;
+   left: 35px;
+   top: 132px;
+   width: 61px;
+   height: 16px;
+   line-height: 16px;
+   z-index: 3;
+}
+#Editbox4
+{
+   position: absolute;
+   left: 148px;
+   top: 258px;
+   width: 111px;
+   height: 16px;
+   z-index: 8;
+}
+#Label1
+{
+   position: absolute;
+   left: 35px;
+   top: 57px;
+   width: 61px;
+   height: 16px;
+   line-height: 16px;
+   z-index: 1;
+}
+#wb_Form1
+{
+   position: absolute;
+   left: 300px;
+   top: 55px;
+   width: 701px;
+   height: 633px;
+   z-index: 10;
+}
+@media only screen
+{
+#wb_Form1
+{
+   left: 500px;
+   top: 146px;
+   width: 802px;
+   height: 665px;
+   visibility: visible;
+   display: inline;
+   font-size: 12px;
+   font-family: Arial;
+   font-style: normal;
+   text-decoration: none;
+   background-image: none;
+}
+
+/*Create Lists FORM CSS*/
+#createListForm
+{
+   position: absolute;
+   left: 300px;
+   top: 100px;
+   width: 701px;
+   height: 633px;
+   z-index: 10;
+   background-color:rgb(238, 193, 152);
+   display: inline;
+
+
+}
+
+}
+@media only screen
+{
+}
+#Editbox1
+{
+   left: 224px;
+   top: 56px;
+   width: 161px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   font-size: 21px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+}
+#Editbox1
+{
+   line-height: 24px;
+}
+#Label1
+{
+   left: 62px;
+   top: 57px;
+   width: 119px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   font-size: 21px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+}
+#Label1
+{
+   line-height: 24px;
+}
+#Editbox2
+{
+   left: 224px;
+   top: 131px;
+   width: 161px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   font-size: 21px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+}
+#Editbox2
+{
+   line-height: 24px;
+}
+#Label2
+{
+   left: 62px;
+   top: 132px;
+   width: 119px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   font-size: 21px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+}
+#Label2
+{
+   line-height: 24px;
+}
+#Editbox3
+{
+   left: 224px;
+   top: 298px;
+   width: 161px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   font-size: 21px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+}
+#Editbox3
+{
+   line-height: 24px;
+}
+#Label3
+{
+   left: 62px;
+   top: 296px;
+   width: 143px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   font-size: 21px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+}
+#Label3
+{
+   line-height: 24px;
+}
+#Button1
+{
+   left: 74px;
+   top: 450px;
+   width: 254px;
+   height: 40px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 1px 6px 1px 6px;
+}
+#wb_Text1
+{
+   left: 74px;
+   top: 420px;
+   width: 395px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#Editbox4
+{
+   left: 224px;
+   top: 203px;
+   width: 161px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   font-size: 21px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+}
+#Editbox4
+{
+   line-height: 24px;
+}
+#Label4
+{
+   left: 62px;
+   top: 203px;
+   width: 143px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   font-size: 21px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+}
+#Label4
+{
+   line-height: 24px;
+}

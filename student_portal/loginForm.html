@@ -1,0 +1,211 @@
+<html>
+	<head>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		  <!-- bootstrap core css -->
+		  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		  <link href="css/font-awesome.min.css" rel="stylesheet" />
+		  <link href="css/responsive.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+	  
+
+		<style>
+			/* HEADER */
+
+/* Float the link section to the right */
+body {font-family: Arial, Helvetica, sans-serif;
+				background-image: linear-gradient(to right, rgba(240, 58, 34, 0.9), rgba(238, 235, 39, 0.9));
+
+				}
+form {border: 3px solid #f1f1f1;
+				width:50%;
+				margin: auto;}
+		
+input[type=text], input[type=password] {
+			  width: 100%;
+			  padding: 12px 20px;
+			  margin: 8px 0;
+			  display: inline-block;
+			  border: 1px solid #ccc;
+			  box-sizing: border-box;
+			}
+			
+button {
+			  background-color: #04AA6D;
+			  color: white;
+			  padding: 14px 20px;
+			  margin: 8px 0;
+			  border: none;
+			  cursor: pointer;
+			  width: 100%;
+			}
+			
+button:hover {
+			  opacity: 0.8;
+			}
+			
+.cancelbtn {
+			  width: auto;
+			  padding: 10px 18px;
+			  background-color: #f44336;
+			}
+			
+.imgcontainer {
+			  text-align: center;
+			  margin: 15px 0 5px 0;
+			  height: 50px;
+			}
+			
+img.avatar {
+			  width: 80px;
+			  height: 80px;
+			  border-radius: 50%;
+}
+			
+.container {
+			  padding: 16px;
+}
+			
+span.psw {
+			  float: right;
+			  padding-top: 16px;
+}
+
+
+			/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+
+@media only screen and (max-width: 500px) {
+	.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 3px 3px;
+}
+
+.header a {
+  float: none;
+  display:table-cell;
+  text-align: left;
+  height: 5px;
+  font-size: 12px;
+}
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+
+.header a.logo {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left:40%;
+}
+img.avatar {
+			  width: 40px;
+			  height: 40px;
+			  border-radius: 40%;
+			}
+.header-right {
+  float: none;
+}
+
+form {border: 3px solid #f1f1f1;
+  width:98%;
+  margin: auto;}
+/* Change styles for span and cancel button on extra small screens */
+  span.psw {
+   display: block;
+   float: none;
+  }
+  .cancelbtn {
+   width: 100%;
+  }
+
+  .container {
+	padding: 16px;
+	height: 50%;
+  }
+
+}
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+
+			</style>
+
+	</head>
+
+	<body>	
+		<!-- form with two textboxes -->
+		<div class="hero_area">
+			<!-- header section strats -->
+			<header class="header_section">
+			  <div class="container-fluid">
+				<nav class="navbar navbar-expand-lg custom_nav-container ">
+				  <a class="navbar-brand" href="index.html">
+					<span>
+					  <img src="assets/icons/madgov.jpg" alt="Avatar" class="avatar">
+					</span>
+				  </a>
+				  <a class="navbar-brand">
+					<span >
+						User Login <br>
+					  </span>
+					</a>
+				  
+		
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class=""> </span>
+				  </button>
+		
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav  ml-auto">
+					  <li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#"> About</a>
+					  </li>
+					  <li class="nav-item">
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="../student_portal/loginForm.html">
+						  <i class="fa fa-user" aria-hidden="true"></i>
+						  <span>
+							<a class="nav-link" href="../student_portal/loginForm.html">Student Portal</a>
+						  </span>
+						</a>
+					  </li>
+		
+					  <form class="form-inline">
+						<button class="btn   nav_search-btn" type="submit">
+						  <i class="fa fa-search" aria-hidden="true"></i>
+						</button>
+					  </form>
+					</ul>
+				  </div>
+				</nav>
+			  </div>
+			</header>
+			</div>
+			<!-- end header section -->
+		
+
+		<!-- when user clicks on the submit button, details (username and password) will be sent to login.php using the post method.-->		
+		<!-- use table to setup the login form-->
+
+		<p style="margin-top:50px">Provide Login Credentials to access Portal</p>
+
+<form name="loginForm"action="login.php" method="post">
+  
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+
+	<p id="invLogin"></p>
+        
+  </div>
+  <button type="submit">Login</button>
+
+</form>
+<a href="#"3>Forgot Password?</a>
+	</body>
+</html>

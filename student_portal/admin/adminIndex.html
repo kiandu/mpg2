@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Admin Index</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/base/jquery-ui.min.css" rel="stylesheet">
+<link href="css/digitalagency.css" rel="stylesheet">
+<link href="css/page1.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css" type="text/css">        <!-- Load CSS styles -->
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" /><!-- bootstrap core css -->
+<link href="../css/font-awesome.min.css" rel="stylesheet" /><!-- font awesome style -->
+<link href="../css/responsive.css" rel="stylesheet" /> <!-- responsive style -->
+<link href="../css/style.css" rel="stylesheet" />  
+<link href="index.css" rel="stylesheet">
+
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#Tabs1").tabs(
+   {
+      show: false,
+      hide: false,
+      event: 'click',
+      collapsible: false
+   });
+});
+</script>
+</head>
+<body>
+    <!-- form with two textboxes -->
+    <div class="hero_area">
+      <!-- header section strats -->
+      <header class="header_section">
+          <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+            <span>
+              <img src="../assets/icons/madgov.jpg" alt="Avatar" class="avatar">
+            </span>
+            </a>
+            <a class="navbar-brand">
+            <span >
+            Portal Admin & Management  <br>
+              </span>
+            </a>
+            
+      
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ml-auto">
+              <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#"> About</a>
+              </li>
+              <li class="nav-item">Profile</li>
+              </li>
+              <li class="nav-item">
+              </li>
+      
+              <form class="form-inline">
+              <button class="btn   nav_search-btn" type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+              </form>
+            </ul>
+            </div>
+          </nav>
+          </div>
+      </header>
+      <!-- MMAIN STYLES -->
+      <style>
+                /* HEADER */
+          
+          /* Float the link section to the right */
+          body {font-family: Arial, Helvetica, sans-serif;
+                  background-image: linear-gradient(to right, rgba(219, 240, 34, 0.9), rgba(238, 95, 39, 0.9));
+          
+                  }
+          form {border: 3px solid #f1f1f1;
+                  width:50%;
+                  margin: auto;}
+              
+          input[type=text], input[type=password] {
+                  width: 100%;
+                  padding: 12px 20px;
+                  margin: 8px 0;
+                  display: inline-block;
+                  border: 1px solid #ccc;
+                  box-sizing: border-box;
+                }
+                
+          button {
+                  background-color: #04AA6D;
+                  color: white;
+                  padding: 14px 20px;
+                  margin: 8px 0;
+                  border: none;
+                  cursor: pointer;
+                  width: 100%;
+                }
+                
+          button:hover {
+                  opacity: 0.8;
+                }
+                
+          .cancelbtn {
+                  width: auto;
+                  padding: 10px 18px;
+                  background-color: #f44336;
+                }
+                
+          .imgcontainer {
+                  text-align: center;
+                  margin: 15px 0 5px 0;
+                  height: 50px;
+                }
+                
+          img.avatar {
+                  width: 80px;
+                  height: 80px;
+                  border-radius: 50%;
+          }
+                
+          .container {
+                  padding: 16px;
+          }
+                
+          span.psw {
+                  float: right;
+                  padding-top: 16px;
+          }
+          
+          
+                /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+          
+          @media only screen and (max-width: 500px) {
+            .header {
+            overflow: hidden;
+            background-color: #f1f1f1;
+            padding: 3px 3px;
+          }
+          
+          .header a {
+            float: none;
+            display:table-cell;
+            text-align: left;
+            height: 5px;
+            font-size: 12px;
+          }
+          /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+          
+          .header a.logo {
+            font-size: 15px;
+            font-weight: bold;
+            margin-left:40%;
+          }
+          img.avatar {
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 40%;
+                }
+          .header-right {
+            float: none;
+          }
+          
+          form {border: 3px solid #f1f1f1;
+            width:98%;
+            margin: auto;}
+          /* Change styles for span and cancel button on extra small screens */
+            span.psw {
+            display: block;
+            float: none;
+            }
+            .cancelbtn {
+            width: 100%;
+            }
+          
+            .container {
+            padding: 16px;
+            height: 50%;
+            }
+          
+          }
+          /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+          
+      </style>     
+		</div>
+		<!-- end header section -->
+
+    <!-- Header.-->
+    <!-- Header.-->
+    <!-- Header.-->
+
+   <div id="Tabs1">
+   <ul>
+   <li role="presentation"><a href="#tabs1-page-1"><span><i class="fa fa-address-card-o tabs-icon"></i>
+      <br>Applicants Details<br><span class="description">Student Forms & Info</span></span></a></li>
+
+   <li role="presentation"><a href="#tabs1-page-2"><span>Tab 2</span></a></li>
+   <li role="presentation"><a href="#tabs1-page-3"><span>Tab 3</span></a></li>
+   </ul>
+
+   <div id="tabs1-page-1">
+      <div id="wb_Text1">
+      <span style="color:#000000;font-family:Arial;font-size:13px;">TAB1 CONTENT HERE</span></div>
+      <div id="wb_Section1" class="card">
+         <input type="button" onclick="navigateToPage('addStudent.html')" id="add_student" name="" value="Add Student">
+         <input type="button" onclick="navigateToPage('masterList.php')" id="master_list" name="" value="Master List">
+         <input type="button" onclick="navigateToPage('elligibleList.php')" id="Elig_list" name="" value="Eligible List">
+      </div>
+
+   </div>
+   <div id="tabs1-page-2">
+      <div id="wb_Text2">
+      <span style="color:#000000;font-family:Arial;font-size:13px;">TAB2 CONTENT HERE</span></div>
+      <div id="wb_Section1" class="card">
+
+      <input type="button" onclick="navigateToPage('createList.html')" id="inst_list" name="" value="Create Installment List">
+      </div>
+
+   </div>
+   <div id="tabs1-page-3">
+      <div id="wb_Text3">
+      <span style="color:#000000;font-family:Arial;font-size:13px;">TAB3 CONTENT HERE</span></div>
+   </div>
+   </div>
+</body>
+
+<!-- Header.-->
+<!-- Header.-->
+
+<script>
+  // Get references to the button and the hidden div
+  const showButton = document.getElementById('installments');
+  const hiddenDiv = document.getElementById('hiddenDiv');
+  
+  // Add a click event listener to the button
+  showButton.addEventListener('click', function() {
+      // Check the current display style of the hidden div
+      const currentDisplayStyle = getComputedStyle(hiddenDiv).display;
+  
+      // Toggle the display style based on its current state
+      if (currentDisplayStyle === 'none') {
+          hiddenDiv.style.display = 'block'; // Show the div
+      } else {
+          hiddenDiv.style.display = 'none'; // Hide the div
+      }
+  });
+  
+    function navigateToPage(pageURL) {
+      // Use window.location to navigate to the specified page
+      window.location.href = pageURL;
+    }
+  </script>
+  
+  
+</html>

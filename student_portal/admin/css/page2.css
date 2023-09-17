@@ -1,0 +1,84 @@
+
+#Table1
+{
+   border-radius: 0px;
+   border: 1px solid #C0C0C0;
+   border-collapse: collapse;
+   border-spacing: 2px;
+   margin: 0;
+}
+#Table1 td, #Table1 th
+{
+   padding: 4px 4px 4px 4px;
+}
+#Table1 td div
+{
+   white-space: nowrap;
+}
+#Table1 p, #Table1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Table1 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 146px;
+   height: 18px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 18px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1
+{
+   position: absolute;
+   left: 536px;
+   top: 160px;
+   width: 651px;
+   height: 120px;
+   z-index: 1;
+}
+@media only screen
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#ContentPlaceHolder1
+{
+   left: 92px;
+   top: 100px;
+   width: 418px;
+   height: 556px;
+   visibility: visible;
+   display: inline;
+}
+#Table1
+{
+   left: 450px;
+   top: 160px;
+   visibility: visible;
+   display: table;
+   background-color: azure;
+   background-image: none;
+}
+}

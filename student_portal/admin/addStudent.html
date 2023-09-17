@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Load CSS styles -->
+
+		    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+        <!-- font awesome style -->
+        <link href="../css/font-awesome.min.css" rel="stylesheet" />
+        <link href="../css/style.css" rel="stylesheet" />  
+
+        <!-- nice select -->
+
+        <!-- Custom styles for this template -->
+        <!-- responsive style -->
+        <link href="../css/responsive.css" rel="stylesheet" />
+            <!-- Load external Javascript/JQuery scripts -->	
+                <script src="../js/myjs.js"></script>
+	</head>
+
+      		<!-- form with two textboxes -->
+          <div class="hero_area">
+            <!-- header section strats -->
+            <header class="header_section">
+              <div class="container-fluid">
+              <nav class="navbar navbar-expand-lg custom_nav-container ">
+                <a class="navbar-brand" href="index.html">
+                <span>
+                  <img src="../assets/icons/madgov.jpg" alt="Avatar" class="avatar">
+                </span>
+                </a>
+                <a class="navbar-brand">
+                <span >
+                Portal Admin & Management  <br>
+                  </span>
+                </a>
+                
+          
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""> </span>
+                </button>
+          
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ml-auto">
+                  <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#"> About</a>
+                  </li>
+                  <li class="nav-item">Profile
+                  </li>
+                  <li class="nav-item">
+                  </li>
+          
+                  <form class="form-inline">
+                  <button class="btn   nav_search-btn" type="submit">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                  </form>
+                </ul>
+                </div>
+              </nav>
+              </div>
+            </header>
+            <!-- MMAIN STYLES -->
+                  <style>
+                    /* HEADER */
+              
+              /* Float the link section to the right */
+              body {font-family: Arial, Helvetica, sans-serif;
+                background-image: linear-gradient(to right, rgba(219, 240, 34, 0.9), rgba(238, 95, 39, 0.9));
+              
+                      }
+              form {border: 3px solid #f1f1f1;
+                background-color: beige;
+                      width:50%;
+                      margin: auto;}
+                  
+              input[type=text], input[type=password] {
+                      width: 100%;
+                      padding: 12px 20px;
+                      margin: 8px 0;
+                      display: inline-block;
+                      border: 1px solid #ccc;
+                      box-sizing: border-box;
+                    }
+                    
+              button {
+                      background-color: #04AA6D;
+                      color: white;
+                      padding: 14px 20px;
+                      margin: 8px 0;
+                      border: none;
+                      cursor: pointer;
+                      width: 100%;
+                    }
+                    
+              button:hover {
+                      opacity: 0.8;
+                    }
+                    
+              .cancelbtn {
+                      width: auto;
+                      padding: 10px 18px;
+                      background-color: #f44336;
+                    }
+                    
+              .imgcontainer {
+                      text-align: center;
+                      margin: 15px 0 5px 0;
+                      height: 50px;
+                    }
+                    
+              img.avatar {
+                      width: 80px;
+                      height: 80px;
+                      border-radius: 50%;
+              }
+                    
+              .container {
+                      padding: 16px;
+              }
+                    
+              span.psw {
+                      float: right;
+                      padding-top: 16px;
+              }
+              
+              
+                    /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+              
+              @media only screen and (max-width: 500px) {
+                .header {
+                overflow: hidden;
+                background-color: #f1f1f1;
+                padding: 3px 3px;
+              }
+              
+              .header a {
+                float: none;
+                display:table-cell;
+                text-align: left;
+                height: 5px;
+                font-size: 12px;
+              }
+              /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+              
+              .header a.logo {
+                font-size: 15px;
+                font-weight: bold;
+                margin-left:40%;
+              }
+              img.avatar {
+                      width: 40px;
+                      height: 40px;
+                      border-radius: 40%;
+                    }
+              .header-right {
+                float: none;
+              }
+              
+              form {border: 3px solid #f1f1f1;
+                width:98%;
+                margin: auto;}
+              /* Change styles for span and cancel button on extra small screens */
+                span.psw {
+                 display: block;
+                 float: none;
+                }
+                .cancelbtn {
+                 width: 100%;
+                }
+              
+                .container {
+                padding: 16px;
+                height: 50%;
+                }
+              
+              }
+              
+                  </style>
+              
+      
+          </div>
+          <!-- end header section -->
+      <!-- Header.-->
+
+    <body>
+      <!--Form Header & Letter Head--> 
+
+        <div id="wb_Form1" style="position:absolute;width:951px;height:836px;">
+            <form name="Form1" method="post" action="addStudent.php" enctype="multipart/form-data" id="Form1">
+            <div id="wb_Form2" style="position:absolute;width:876px;z-index:76;">
+            <form name="contact" method="post" action=" " enctype="multipart/form-data" id="Form2" onsubmit="return submitcontact()">
+            <input type="hidden" name="formid" value="form2">
+            <label for="Editbox1" id="Label8" 
+            style="position:absolute;left:15px;top:44px;width:56px;height:18px;line-height:18px;z-index:62;">ID #</label>
+            <input type="text" id="Editbox1" 
+            style="position:absolute;left:134px;top:44px;width:127px;height:18px;z-index:51;" name="studentId" placeholder="ID Number" spellcheck="false">
+
+            <label for="Editbox1" id="Label2" style="position:absolute;left:15px;top:99px;width:98px;height:18px;line-height:18px;z-index:50;">Given Name:</label>
+            <input type="text" id="Editbox6" style="position:absolute;left:134px;top:99px;width:249px;height:18px;z-index:63;" name="givenName" value="" spellcheck="false">
+            <label for="Editbox1" id="Label6" style="position:absolute;left:15px;top:146px;width:98px;height:18px;line-height:18px;z-index:55;">Surname:</label>
+            <input type="text" id="Editbox7" style="position:absolute;left:134px;top:146px;width:249px;height:18px;z-index:57;" name="surname" value="" spellcheck="false">
+            <input type="text" id="Editbox2" style="position:absolute;left:134px;top:202px;width:249px;height:18px;z-index:52;" name="institution" value="" spellcheck="false">
+            <label for="Editbox1" id="Label3" style="position:absolute;left:15px;top:202px;width:98px;height:18px;line-height:18px;z-index:56;">Institution:</label>
+            <label for="Editbox1" id="Label14" style="position:absolute;left:14px;top:252px;width:98px;height:18px;line-height:18px;z-index:74;">Tuition Fee</label>
+            <input type="text" id="Editbox4" style="position:absolute;left:134px;top:252px;width:249px;height:18px;z-index:75;" name="tuition" value="" spellcheck="false">
+
+            <label for="Editbox1" id="Label7" style="position:absolute;left:14px;top:300px;width:98px;height:18px;line-height:18px;z-index:58;">Username</label>
+            <input type="text" id="Editbox8" style="position:absolute;left:131px;top:300px;width:249px;height:18px;z-index:59;" name="username" value="" spellcheck="false">
+            <input type="text" id="Editbox3" style="position:absolute;left:131px;top:340px;width:249px;height:18px;z-index:60;" name="password" value="" spellcheck="false">
+            <label for="Editbox1" id="Label5" style="position:absolute;left:14px;top:340px;width:98px;height:18px;line-height:18px;z-index:61;">Password</label>
+            <input type="text" id="Editbox3" style="position:absolute;left:131px;top:400px;width:249px;height:18px;z-index:60;" name="email" value="" spellcheck="false">
+            <label for="Editbox1" id="Label5" style="position:absolute;left:14px;top:400px;width:98px;height:18px;line-height:18px;z-index:61;">email</label>
+
+
+            <div id="FileUpload1" class="input-group" style="position:absolute;left:654px;top:60px;width:203px;height:26px;z-index:64;">
+              <input class="form-control" type="text" readonly="" id="FileUpload1-input">
+              <label class="input-group-btn">
+              <input type="file" name="FileUpload1" id="FileUpload1-file" style="display:none;"><span class="btn">Browse...</span>
+            </label>
+            </div>
+            <label for="Editbox1" id="Label4" style="position:absolute;left:14px;top:450px;width:98px;height:18px;line-height:18px;z-index:65;">Address</label>
+            <textarea name="address" id="TextArea1" style="position:absolute;left:133px;top:450px;width:247px;height:66px;z-index:53;" rows="3" cols="28" spellcheck="false"></textarea>
+
+            <label for="Editbox1" id="Label9" style="position:absolute;left:487px;top:88px;width:126px;height:18px;line-height:18px;z-index:66;">Form 1</label>
+            <label for="Editbox1" id="Label10" style="position:absolute;left:487px;top:137px;width:154px;height:18px;line-height:18px;z-index:67;">Acceptance Letter</label>
+            <label for="Editbox1" id="Label1" style="position:absolute;left:487px;top:44px;width:126px;height:18px;line-height:18px;z-index:68;">Add Form 1 Files</label>
+            <div id="FileUpload2" class="input-group" style="position:absolute;left:654px;top:147px;width:203px;height:26px;z-index:69;">
+            <input class="form-control" type="text" readonly="" id="FileUpload2-input">
+            <label class="input-group-btn">
+            <input type="file" name="FileUpload1" id="FileUpload2-file" style="display:none;"><span class="btn">Browse...</span>
+            </label>
+            </div>
+            <div id="FileUpload3" class="input-group" style="position:absolute;left:654px;top:225px;width:203px;height:26px;z-index:70;">
+            <input class="form-control" type="text" readonly="" id="FileUpload3-input">
+            <label class="input-group-btn">
+            <input type="file" name="FileUpload1" id="FileUpload3-file" style="display:none;"><span class="btn">Browse...</span>
+            </label>
+            </div>
+            <label for="Editbox1" id="Label11" style="position:absolute;left:487px;top:212px;width:91px;height:18px;line-height:18px;z-index:71;">Refference</label>
+            <label for="Editbox1" id="Label12" style="position:absolute;left:487px;top:161px;width:126px;height:19px;line-height:19px;z-index:72;">(From Institution)</label>
+            <label for="Editbox1" id="Label13" style="position:absolute;left:480px;top:238px;width:168px;height:19px;line-height:19px;z-index:73;">(From Ward Council)</label>
+
+            <input type="submit" id="Button1" name="" value="SUBMIT" style="position:absolute;left:621px;top:350px;width:161px;height:43px;z-index:54;">
+            </form>
+            <input type="button" id="Button1" name="" value="VIEW LIST"onclick="navigateToPage('masterList.php')"
+            style="position:absolute;left:621px;top:400px;width:161px;height:43px;z-index:54;">
+
+            </div>
+            </form>
+            </div>
+
+<script>
+        function navigateToPage(pageURL) {
+      // Use window.location to navigate to the specified page
+      window.location.href = pageURL;
+    }
+</script>
+    </body>
+    </html>
